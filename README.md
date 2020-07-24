@@ -4,9 +4,10 @@
 
 ```php -S 0.0.0.0:8080 -t public```
 
-## SQ
+## SQL
+
 ```SQL
-CREATE SCHEMA `default` ;
+CREATE SCHEMA `default`;
 ```
 ``` SQL
 CREATE TABLE `default`.`tasks` (
