@@ -2,10 +2,12 @@
 
 ## Initialize the server
 
-php -S 0.0.0.0:8080 -t public
+```php -S 0.0.0.0:8080 -t public```
 
-## SQL
-
+## SQ
+```SQL
+CREATE SCHEMA `default` ;
+```
 ``` SQL
 CREATE TABLE `default`.`tasks` (
   `id` INT NOT NULL AUTO_INCREMENT,
