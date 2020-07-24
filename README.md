@@ -15,3 +15,8 @@ CREATE TABLE `default`.`tasks` (
   `name` VARCHAR(255) NULL,
   PRIMARY KEY (`id`));
 ```
+
+## Docker
+```
+docker run -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
+```
